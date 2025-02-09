@@ -149,5 +149,4 @@ C:\Users\Vinicius\ApiVini\bin\Debug\net9.0\frontend\package.json
 C:\Users\Vinicius\ApiVini\bin\Debug\net9.0\frontend\tsconfig.app.json
 C:\Users\Vinicius\ApiVini\bin\Debug\net9.0\frontend\tsconfig.json
 C:\Users\Vinicius\ApiVini\bin\Debug\net9.0\frontend\tsconfig.spec.json
-C:\Users\Vinicius\ApiVini\bin\Debug\net9.0\frontend\src\proxy.conf.json
 C:\Users\Vinicius\ApiVini\obj\Debug\net9.0\ApiVini.sourcelink.json
