@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiVini")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fbd1b9838b892f98bb6b89f49d254d01bdf8784")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26190d8bc85b1f51f68b83b5fb7b7c0571e62109")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiVini")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiVini")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

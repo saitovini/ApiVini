@@ -1,0 +1,18 @@
+<h2>Lista de Compras</h2>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Total</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let purchase of purchases">
+      <td>{{ purchase.id }}</td>
+      <td>R$ {{ purchase.total }}</td>
+      <td>{{ purchase.date }}</td>
+    </tr>
+  </tbody>
+</table>
+<a routerLink="/purchases/create">Criar Nova Compra</a>

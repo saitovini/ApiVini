@@ -1,0 +1,13 @@
+<h2>{{ isEditMode ? 'Editar Usuário' : 'Criar Usuário' }}</h2>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Nome:</label>
+    <input id="name" formControlName="name" />
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" formControlName="email" />
+  </div>
+  <button type="submit">{{ isEditMode ? 'Atualizar' : 'Criar' }}</button>
+</form>
+<a routerLink="/users">Voltar</a>

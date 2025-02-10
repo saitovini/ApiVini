@@ -1,0 +1,20 @@
+<h1>Produtos</h1>
+<ul>
+  <li *ngFor="let product of products">
+    {{ product.name }} - R$ {{ product.price }}
+  </li>
+</ul>
+
+<h1>Compras</h1>
+<ul>
+  <li *ngFor="let purchase of purchases">
+    Compra #{{ purchase.id }} - Total: R$ {{ purchase.total }}
+  </li>
+</ul>
+
+<h1>Usuários</h1>
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }} - {{ user.email }}
+  </li>
+</ul>

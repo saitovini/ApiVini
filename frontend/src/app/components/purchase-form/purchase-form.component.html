@@ -1,0 +1,13 @@
+<h2>Criar Nova Compra</h2>
+<form [formGroup]="purchaseForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="total">Total:</label>
+    <input id="total" formControlName="total" />
+  </div>
+  <div>
+    <label for="date">Data:</label>
+    <input id="date" type="date" formControlName="date" />
+  </div>
+  <button type="submit">Criar</button>
+</form>
+<a routerLink="/purchases">Voltar</a>
